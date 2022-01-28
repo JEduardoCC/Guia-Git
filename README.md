@@ -9,6 +9,14 @@ git config --local user.email tuemail@ejemplo.com
 ```
 - Si quieres utilizar diferentes correos electrónicos para diferentes repositorios
 ***
+## PASOS PARA HACER PULL:
+```
+git init
+git remote add origin https://github.com/JEduardoCC/Guia-Git.git
+git pull origin "RAMA"
+```
+
+***
 ## PASOS PARA HACER COMMIT:
 ```
 git init
@@ -16,7 +24,7 @@ git branch -M main
 git add .
 git commit -m "first commit"
 git remote add origin https://github.com/JEduardoCC/Guia-Git.git
-git push -u origin main
+git push -u origin "RAMA"
 ```
 ***
 ## COMANDO BASICOS DE GIT:
