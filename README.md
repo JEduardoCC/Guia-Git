@@ -1,6 +1,5 @@
 # GIT
 ## PASOS PARA HACER COMMIT:
-
 ```
 git init
 git branch -M main
@@ -10,12 +9,17 @@ git remote add origin https://github.com/JEduardoCC/Guia-Git.git
 git push -u origin main
 ```
 ## COMANDO DE GIT:
+
+```
+git init
+```
+- 
 ```
 git status
 ```
--Poder listar y ver si los archivos estan listos para subir
+- Poder listar y ver si los archivos estan listos para subir
 
--Ojo, en caso los archivos no esten listos se veran de color rojo y cuando lo esten seran de color verde
+- :eyes: en caso los archivos no esten listos se veran de color rojo y cuando lo esten seran de color verde
 ```
 git add .
 git add "nombre_de_archivo"
