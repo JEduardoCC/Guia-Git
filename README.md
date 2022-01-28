@@ -1,5 +1,15 @@
 # GIT
-## Comandos para GIT
+## PASOS PARA HACER COMMIT:
+
+```
+git init
+git branch -M main
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/JEduardoCC/Guia-Git.git
+git push -u origin main
+```
+## COMANDO DE GIT:
 ```
 git status
 ```
