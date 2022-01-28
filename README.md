@@ -65,3 +65,35 @@ git checkout "nombre-de-branch"
 ```
 - Sirve para poder moverme entre ramas
 - :eyes: Si el checkout no tiene el -b, solo es para moverse entre ramas.
+```
+git remote -v
+```
+- Sirve para ver las URL vinculadas
+```
+git log
+```
+- Sirve para mostrar un resumen de los commit realizados
+```
+rm -Rf .git
+```
+- Elimina el repositorio local
+- Elimina la carpeta .git
+```
+git revert HEAD --no-edit
+```
+- Revertir ultimo commit de forma local
+- Si haces git push original "RAMA", se crea un nuevo commit, pero regresa al commit anterior.
+```
+git pull origin "RAMA"
+```
+ - Descarga los nuevos cambios de la rama nombrada   
+```
+git clone "URL_REPOSITORIO"
+``` 
+- Copia todo un repositorio, siempre y cuando se publico
+```
+git merge "RAMA"
+```
+- Sirve para juntar cambios entre ramas
+- Los merge deben hacerse en orden y no a la vez
+- Los cambios con merge son de manera local
