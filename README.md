@@ -1,4 +1,14 @@
 # GIT
+## AGREGAR CUENTA GIT-HUB
+```
+git config --global user.email tuemail@ejemplo.com
+```
+- La opción -global le dice a GIT que vas a usar ese correo electrónico para todos los repositorios locales.
+```
+git config --local user.email tuemail@ejemplo.com
+```
+- Si quieres utilizar diferentes correos electrónicos para diferentes repositorios
+***
 ## PASOS PARA HACER COMMIT:
 ```
 git init
@@ -97,3 +107,7 @@ git merge "RAMA"
 - Sirve para juntar cambios entre ramas
 - Los merge deben hacerse en orden y no a la vez
 - Los cambios con merge son de manera local
+```
+git branch -d "RAMA"
+```
+- Elimina una rama
